@@ -1,0 +1,125 @@
+.hero{
+    min-height: 100vh;
+    height: 100vh;
+    padding: 280px 0;
+    /* overflow: hidden; */
+}
+.hero .hero-title{
+    font-size: calc(2rem + 1.5vw);
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+.linearText{
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+    /* background-image: linear-gradient(135deg,#4A00E0,#8E2DE2); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/**connect btn**/
+.connectBtn {
+    width:fit-content;
+	width:-webkit-fit-content;
+    font-weight: 700;
+    border-width: 4px;
+    border-style: solid;
+    border-image:linear-gradient(135deg,#02aab0,#00cdac);
+    /* border-image:linear-gradient(135deg,#4A00E0,#8E2DE2); */
+    border-image-slice: 1;
+    padding: 6px 16px;
+    font-size: 22px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+.connectBtn span {
+    z-index: 1;
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+    /* background-image: linear-gradient(135deg,#4A00E0,#8E2DE2); */
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.connectBtn::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+    /* background-image: linear-gradient(135deg,#4A00E0,#8E2DE2); */
+
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.2s ease-in-out;
+  }
+  .connectBtn:hover span {
+    -webkit-text-fill-color: #fff;
+  }
+  .connectBtn:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/* social icons */
+.social-icon{
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.social-icon a{
+    font-size: 40px;
+
+}
+
+#island {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#island .background-image-right {
+    border-top-left-radius: 620px;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(125deg,#22c1c3,#fdbb2d);
+    position: absolute;
+    bottom: -80%;
+    right: 0%;
+    z-index: -4;
+  }
+#island img{
+    width: 30%;
+    position: absolute;
+    right: 12%;
+    bottom: 17%;
+}
+
+/* responsive */
+@media (max-width:768px) {
+    .hero .hero-title{
+        text-align: center;
+    }
+    .connectBtn{
+        font-size:18px;
+        padding: 6px 24px;
+        margin: 0 auto;
+    }
+    .social-icon{
+        justify-content: space-around;
+    }
+    
+    #island img{
+        display: none;
+    }
+}
+@media (max-height:800px) {
+    #island .background-image-right{
+        bottom: -100%;
+        border-radius: 0;
+    }
+}
