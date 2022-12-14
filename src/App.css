@@ -78,3 +78,7 @@ p.success {
 p.danger {
 	color: red;
 }
+/* animation */
+:root {
+  --animate-delay: 0.5s;
+}
