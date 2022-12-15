@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <ShortNav />
       <Hero />
-     
+      <Skills />
 
-      
+
     </div>
   );
 }

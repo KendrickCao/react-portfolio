@@ -1,7 +1,7 @@
 .hero{
     min-height: 100vh;
-    height: 100vh;
-    padding: 280px 0;
+    /* height: 100vh; */
+    /* padding: 280px 0; */
     /* overflow: hidden; */
 }
 .hero .hero-title{
@@ -71,32 +71,37 @@
     justify-content: flex-start;
     gap: 40px;
 }
-
 .social-icon a{
     font-size: 40px;
-
+    transition: all .2s ease-in;
+}
+.social-icon a:hover{
+    transform: translateY(-5px);
 }
 
 #island {
+    position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    z-index: -4;
+    /* overflow: hidden; */
 }
 #island .background-image-right {
     border-top-left-radius: 620px;
-    width: 120%;
+    width: 114%;
     height: 100%;
     background: linear-gradient(125deg,#22c1c3,#fdbb2d);
     position: absolute;
-    bottom: -80%;
+    bottom: 9%;
     right: 0%;
-    z-index: -4;
+    z-index: -1;
   }
 #island img{
     width: 30%;
     position: absolute;
     right: 12%;
-    bottom: 17%;
+    bottom: 107%;
+    /* z-index: -4; */
 }
 
 /* responsive */
@@ -117,9 +122,18 @@
         display: none;
     }
 }
-@media (max-height:800px) {
+@media (max-width:576px) {
     #island .background-image-right{
-        bottom: -100%;
+        bottom: 0%;
         border-radius: 0;
+    }
+}
+@media (max-height:799px) {
+    #island .background-image-right{
+        bottom: 0%;
+        border-radius: 0;
+    }
+    #island img{
+        display: none;
     }
 }

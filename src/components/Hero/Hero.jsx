@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap"
 import { FaGithub,FaLinkedinIn,FaFileAlt } from "react-icons/fa"
-import { Skills } from '../../components/Skills/Skills';
+// import { Skills } from '../../components/Skills/Skills';
 import  plumtreeImg  from "../../assets/images/plumtree.png"
 import 'animate.css'
 import "./Hero.css"
@@ -9,8 +9,7 @@ export const Hero = () => {
 
     return(
         <section className="hero" id="home">
-            <Container>
-                <div className="aligh-items-center">
+            <Container Style="padding: 30vh 0;">
                     <h1 className="hero-title animate__animated animate__fadeInLeft">Hi, I'm <span className="linearText">Yanguo.</span><br />
                     I'm a Full Stack Developer.
                     </h1>
@@ -23,17 +22,15 @@ export const Hero = () => {
                         </linearGradient>
                     </svg>  
                     <div className="social-icon animate__animated animate__fadeInLeft animate__delay-1s">      
-                        <a target="blank" href="https://github.com/KendrickCao/"><FaGithub className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
-                        <a target="blank" href="https://www.linkedin.com/in/yanguocao/"><FaLinkedinIn className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
-                        <a target="blank" href="https://drive.google.com/file/d/11iSpHAFuoUEUs0MhtJ96e-MClyqBjodM/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "url(#color-gradient)" }}/></a>
+                        <a title="Github" rel="noreferrer" target="_blank" href="https://github.com/KendrickCao/"><FaGithub className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
+                        <a title="LinkedIn" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/yanguocao/"><FaLinkedinIn className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
+                        <a title="Resume" rel="noreferrer" target="blank" href="https://drive.google.com/file/d/11iSpHAFuoUEUs0MhtJ96e-MClyqBjodM/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "url(#color-gradient)" }}/></a>
                     </div>
-                </div>
             </Container>
-                <div id="island">
+            <div id="island">
                     <img src={plumtreeImg} alt="plumtree" className="animate__animated animate__bounce animate__delay-2s"/>
-                    <div className="background-image-right"></div>
-                </div>
-                <Skills />
+                <div className="background-image-right"></div>
+            </div>
         </section>
     )
 }
