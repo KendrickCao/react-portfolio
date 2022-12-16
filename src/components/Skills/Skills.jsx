@@ -5,11 +5,15 @@ import { otherSkillData } from "./skillData"
 import { backSkillData } from "./skillData"
 import "./Skills.css"
 import "../../App.css"
+import  plumtreeImg  from "../../assets/images/plumtree.png"
 
 export const Skills = () =>{
-    
+
     return(
         <section id="skills">
+            <island>
+                <img src={plumtreeImg} alt="plumtree" className="animate__animated animate__bounce animate__delay-2s"/>
+            </island>
             <Container>
                 <h2 className="section-title" style={{color:"white"}}>SKILLS</h2>
                 <Row id="skills-container">

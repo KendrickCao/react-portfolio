@@ -92,3 +92,49 @@ p.danger {
 :root {
   --animate-delay: 0.5s;
 }
+
+/************ responsive ************/
+@media (max-width:768px) {
+  .hero .hero-title{
+      text-align: center;
+  }
+  .connectBtn{
+      font-size:18px;
+      padding: 6px 24px;
+      margin: 0 auto;
+  }
+  .social-icon{
+      justify-content: space-around;
+  }
+
+  island img{
+      display: none;
+  }
+}
+@media (max-width:1200px) {
+  island{
+      height: 110%;
+  }
+  
+}
+@media (max-width:576px) {
+  island{
+      height: 100%;
+      border-radius: 0;
+      bottom: 0;
+      padding-top: 4rem;
+      margin-bottom: 2rem;
+  }
+}
+@media (max-height:799px) {
+  island{
+      bottom: 0;
+      height: 100%;
+      border-radius: 0;
+      padding-top: 4rem;
+      margin-bottom: 2rem;
+  }
+  island img{
+      display: none;
+  }
+}

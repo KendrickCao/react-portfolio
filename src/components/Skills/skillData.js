@@ -17,7 +17,7 @@ import gradleIcon from "../../assets/images/gradle.png"
 import linuxIcon from "../../assets/images/linux.png"
 import jmeterIcon from "../../assets/images/jmeter.png"
 import seleniumIcon from "../../assets/images/selenium.png"
-import nodeIcon from "../../assets/images/node.jfif"
+import nodeIcon from "../../assets/images/node.png"
 
 
 import gitIcon from "../../assets/images/git.png"
