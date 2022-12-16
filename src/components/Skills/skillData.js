@@ -70,12 +70,12 @@ export const backSkillData = [
         title : "Java" 
     },
     {
-        imgSrc: pythonIcon,
-        title : "Python" 
+        imgSrc: springbootIcon,
+        title : "SpringBoot" 
     },
     {
-        imgSrc: springbootIcon,
-        title : "Spring" 
+        imgSrc: pythonIcon,
+        title : "Python" 
     },
     {
         imgSrc: mysqlIcon,
