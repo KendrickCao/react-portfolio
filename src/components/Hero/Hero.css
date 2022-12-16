@@ -82,7 +82,7 @@
 #island {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 72%;
     z-index: -4;
     /* overflow: hidden; */
 }
@@ -98,10 +98,10 @@
   }
 #island img{
     width: 30%;
+    max-width: 600px;
     position: absolute;
     right: 12%;
-    bottom: 107%;
-    /* z-index: -4; */
+    bottom: 109%;
 }
 
 /* responsive */
@@ -117,7 +117,7 @@
     .social-icon{
         justify-content: space-around;
     }
-    
+
     #island img{
         display: none;
     }
@@ -135,5 +135,10 @@
     }
     #island img{
         display: none;
+    }
+}
+@media (min-width:1200px) {
+    #island {
+        height: 1200px;
     }
 }

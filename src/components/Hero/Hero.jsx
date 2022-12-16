@@ -1,15 +1,16 @@
 import { Container } from "react-bootstrap"
 import { FaGithub,FaLinkedinIn,FaFileAlt } from "react-icons/fa"
-// import { Skills } from '../../components/Skills/Skills';
 import  plumtreeImg  from "../../assets/images/plumtree.png"
 import 'animate.css'
 import "./Hero.css"
 
 export const Hero = () => {
-
+    const style = {
+        padding:"30vh 0"
+    }
     return(
         <section className="hero" id="home">
-            <Container Style="padding: 30vh 0;">
+            <Container style={style}>
                     <h1 className="hero-title animate__animated animate__fadeInLeft">Hi, I'm <span className="linearText">Yanguo.</span><br />
                     I'm a Full Stack Developer.
                     </h1>
@@ -28,8 +29,8 @@ export const Hero = () => {
                     </div>
             </Container>
             <div id="island">
-                    <img src={plumtreeImg} alt="plumtree" className="animate__animated animate__bounce animate__delay-2s"/>
-                <div className="background-image-right"></div>
+                <img src={plumtreeImg} alt="plumtree" className="animate__animated animate__bounce animate__delay-2s"/>
+                <div id="island-ground" className="background-image-right"></div>
             </div>
         </section>
     )

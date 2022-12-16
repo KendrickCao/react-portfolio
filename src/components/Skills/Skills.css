@@ -4,7 +4,7 @@
     /* color: white; */
    
 }
-.skills-container{
+#skills-container{
     row-gap: 2rem;
     justify-content: space-around;
 }
@@ -20,12 +20,19 @@
     margin: 2rem 0;
     padding: 0 2rem;
 }
-.skills-card .col{
-    /* background-color: aqua; */
-}
+
 .skills-card img{
     width: 60px;
 }
 .skills-card h5{
     font-weight: 300;
+}
+.skills-card .row{
+    --bs-gutter-y: 1.5rem;
+}
+.skills-card .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
