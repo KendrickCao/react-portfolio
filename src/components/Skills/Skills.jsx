@@ -17,7 +17,7 @@ export const Skills = () =>{
             <Container>
                 <h2 className="section-title" style={{color:"white"}}>SKILLS</h2>
                 <Row id="skills-container">
-                    <Col xl={4} sm={10} md={8} xs={11}>
+                    <Col xl={4} sm={10} md={8} xs={11} className="animate__animated animate__fadeInLeft">
                         <div className="skills-card-container">
                             <h3>Front End</h3>
                             <div className="skills-card">
@@ -32,7 +32,7 @@ export const Skills = () =>{
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} sm={10} md={8} xs={11}>
+                    <Col xl={4} sm={10} md={8} xs={11} className="animate__animated animate__fadeInLeft">
                         <div className="skills-card-container">
                             <h3>Back End</h3>
                             <div className="skills-card">
@@ -49,7 +49,7 @@ export const Skills = () =>{
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} sm={10} md={8} xs={11}>
+                    <Col xl={4} sm={10} md={8} xs={11} className="animate__animated animate__fadeInLeft">
                         <div className="skills-card-container">
                             <h3>Other</h3>
                             <div className="skills-card">

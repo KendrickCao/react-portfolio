@@ -32,13 +32,11 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
                 </div>
             </Col>
             <Col sm={12} lg={8} className="project-img-wrapper">
-                <div className="">
-                    <Carousel responsive={responsive} infinite={true} showDots={true} removeArrowOnDeviceType={"small"}>
-                    {
-                        imgSrc.map((imgitem,index) => <img key={index} src={imgitem} alt={title}/>)
-                    }
-                    </Carousel>
-                </div>
+                <Carousel responsive={responsive} infinite={true}  removeArrowOnDeviceType={"small"}>
+                {
+                    imgSrc.map((imgitem,index) => <img key={index} src={imgitem} alt={title}/>)
+                }
+                </Carousel>
             </Col>
         </Row>
     )

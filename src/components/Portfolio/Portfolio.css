@@ -1,5 +1,5 @@
 #projects{
-    padding: 2rem 0 10rem 0;
+    padding: 2rem 0 0 0;
 }
 .project-title{
     font-weight: 700;
@@ -28,9 +28,6 @@
 #projects .row{
     justify-content: space-evenly;
     margin-bottom: 8rem;
-}
-.project-img-wrapper{
-    /* margin: auto 0; */
 }
 .project-img-wrapper img{
     width: 100%;
