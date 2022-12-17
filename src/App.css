@@ -14,6 +14,15 @@
 	src: url('./assets/fonts/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
+
+@font-face {
+	font-family: Montserrat;
+	src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+  font-display: block;
+	font-style: normal italic;
+	font-weight: 100 900;
+	font-stretch: 10% 400%;
+}
 /************ Default Css ************/
 * {
   margin: 0;
@@ -39,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
-p, a, li, button, ul {
+a, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -80,12 +89,12 @@ p.danger {
 }
 /************ Custom Css ************/
 .section-title{
-    font-size: 2.75rem;
+    font-size: calc(1.75rem + .9vw);
     margin: 0 auto;
     font-weight: 600;
     width: fit-content;
-    transform: scaleX(1.1);
     margin-bottom: 3rem;
+    transform: scaleX(1.1);
 }
 
 /************ Animation ************/
@@ -106,35 +115,43 @@ p.danger {
   .social-icon{
       justify-content: space-around;
   }
-
-  island img{
+  #island img{
       display: none;
+  }
+  #projects .row {
+    margin-bottom: 4rem!important;
   }
 }
 @media (max-width:1200px) {
-  island{
+  #island{
       height: 110%;
   }
   
 }
 @media (max-width:576px) {
-  island{
+  #skills{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+  }
+  #island{
       height: 100%;
       border-radius: 0;
       bottom: 0;
-      padding-top: 4rem;
-      margin-bottom: 2rem;
   }
 }
 @media (max-height:799px) {
-  island{
+  #skills{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+  }
+  #island{
       bottom: 0;
       height: 100%;
       border-radius: 0;
-      padding-top: 4rem;
-      margin-bottom: 2rem;
   }
-  island img{
+  #island img{
       display: none;
   }
 }

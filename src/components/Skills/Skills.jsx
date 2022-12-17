@@ -11,9 +11,9 @@ export const Skills = () =>{
 
     return(
         <section id="skills">
-            <island>
+            <div id="island">
                 <img src={plumtreeImg} alt="plumtree" className="animate__animated animate__bounce animate__delay-2s"/>
-            </island>
+            </div>
             <Container>
                 <h2 className="section-title" style={{color:"white"}}>SKILLS</h2>
                 <Row id="skills-container">
@@ -23,12 +23,10 @@ export const Skills = () =>{
                             <div className="skills-card">
                                 <Row>
                                     {
-                                        frontSkillData.map((skillItem,index) => {
-                                            return (
-                                                <SkillsItem key={index} 
-                                                {...skillItem}/>
-                                            )
-                                        })
+                                        frontSkillData.map((skillItem,index) => 
+                                            <SkillsItem key={index} 
+                                            {...skillItem}/>
+                                        )
                                     }
                                 </Row>
                             </div>

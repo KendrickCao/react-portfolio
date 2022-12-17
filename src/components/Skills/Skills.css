@@ -27,7 +27,9 @@
     /* height: 60px; */
 }
 .skills-card h5{
-    font-weight: 300;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif !important;
+
 }
 .skills-card .row{
     --bs-gutter-y: 1.5rem;
@@ -38,7 +40,7 @@
     align-items: center;
     justify-content: space-between;
 }
-island{
+#island{
     border-top-left-radius: 620px;
     background: linear-gradient(125deg,#22c1c3,#fdbb2d);
     width: 114%;
@@ -49,7 +51,7 @@ island{
     bottom: 2rem;
     z-index: -999;
 }
-island img{
+#island img{
     width: 30%;
     max-width: 600px;
     position: absolute;
