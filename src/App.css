@@ -97,11 +97,6 @@ p.danger {
     transform: scaleX(1.1);
 }
 
-/************ Animation ************/
-:root {
-  --animate-delay: 0.5s;
-}
-
 /************ responsive ************/
 @media (max-width:768px) {
   .hero .hero-title{

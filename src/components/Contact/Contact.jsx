@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap"
 import emailjs from "@emailjs/browser";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import "./Contact.css"
 
 export const Contact = () =>{
@@ -30,10 +30,10 @@ export const Contact = () =>{
     return (
       <section id="contact">
         <Container>
-          <Fade>
+          <Fade fraction={1}>
           <h2 className="section-title">CONTACT</h2>
           </Fade>
-          <Fade>
+          <Fade fraction={0.5}>
           <div className="form-container">
             <form ref={form} id="email-form">
                 <input

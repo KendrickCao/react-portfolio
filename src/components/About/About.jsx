@@ -1,5 +1,5 @@
 import { Container,Col,Row } from "react-bootstrap"
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 import selfie from "../../assets/images/me1.png"
 import "./About.css"
 
@@ -13,14 +13,14 @@ export const About = () =>{
           </Fade>
           <Row>
             <Col lg={6} sm={12}>
-            <Fade bottom>
+            <Fade direction="up">
               <div className="selfie-container">
                 <img alt="selfie" src={selfie} />
               </div>
             </Fade>
             </Col>
             <Col lg={6} sm={12}>
-              <Fade>
+              <Fade direction="right" fraction={0.5}>
                 <div>
                   <p>
                     As a dedicated and hardworking postgraduate from Cardiff
