@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap"
 import emailjs from "@emailjs/browser";
+import Fade from "react-reveal/Fade";
 import "./Contact.css"
 
 export const Contact = () =>{
@@ -29,7 +30,10 @@ export const Contact = () =>{
     return (
       <section id="contact">
         <Container>
+          <Fade>
           <h2 className="section-title">CONTACT</h2>
+          </Fade>
+          <Fade>
           <div className="form-container">
             <form ref={form} id="email-form">
                 <input
@@ -51,6 +55,8 @@ export const Contact = () =>{
                 <span>{done && "Thanks for Contacting"}</span>
             </form>
           </div>
+          </Fade>
+          
         </Container>
       </section>
     );

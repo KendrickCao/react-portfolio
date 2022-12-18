@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap"
 import { FaGithub,FaLinkedinIn,FaFileAlt } from "react-icons/fa"
 import { Nav } from "react-bootstrap";
-
 import 'animate.css'
 import "./Hero.css"
 

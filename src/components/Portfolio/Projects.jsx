@@ -1,6 +1,7 @@
 import { Col,Row } from "react-bootstrap"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Fade from 'react-reveal/Fade';
 
 export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
 
@@ -17,27 +18,37 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
     };
     return(
         <Row>
+            
             <Col sm={12} xl={4}>
-                <h2 className="mb-3 project-title">{title}</h2>
-                <div>
-                    <div className="project-tech mb-3">
-                    {
-                        tech.map((techitem,index) => <div key={index} className="techbox">{techitem}</div>)
-                    }
+                <Fade left cascade>
+                    <div>
+                        <h2 className="mb-3 project-title">{title}</h2>
+                        <div>
+                            <div className="project-tech mb-3">
+                            {
+                                tech.map((techitem,index) => <div key={index} className="techbox">{techitem}</div>)
+                            }
+                            </div>
+                            <p className="project-description">{description}</p>
+                            <div className="button-wrapper mb-3">
+                                <a href={gitLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Github</span></div></a>
+                            </div>
+                        </div>               
                     </div>
-                    <p className="project-description">{description}</p>
-                    <div className="button-wrapper mb-3">
-                        <a href={gitLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Github</span></div></a>
-                    </div>
-                </div>
+                </Fade>
             </Col>
             <Col sm={12} xl={8} className="project-img-wrapper">
-                <Carousel responsive={responsive} infinite={true}  removeArrowOnDeviceType={"small"}>
-                {
-                    imgSrc.map((imgitem,index) => <img key={index} src={imgitem} alt={title}/>)
-                }
-                </Carousel>
+                <Fade>
+                    <div>
+                        <Carousel responsive={responsive} infinite={true}  removeArrowOnDeviceType={"small"}>
+                        {
+                            imgSrc.map((imgitem,index) => <img key={index} src={imgitem} alt={title}/>)
+                        }
+                        </Carousel>
+                    </div>
+                </Fade>
             </Col>
+            
         </Row>
     )
 }
