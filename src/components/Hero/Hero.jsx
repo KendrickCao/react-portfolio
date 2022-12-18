@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap"
 import { FaGithub,FaLinkedinIn,FaFileAlt } from "react-icons/fa"
+import { Nav } from "react-bootstrap";
 import 'animate.css'
 import "./Hero.css"
 
@@ -11,7 +12,7 @@ export const Hero = () => {
                     <h1 className="hero-title animate__animated animate__fadeInLeft">Hi, I'm <span className="linearText">Yanguo.</span><br />
                     I'm a Full Stack Developer.
                     </h1>
-                    <div className="connectBtn animate__animated animate__fadeInLeft animate__delay-1s" onClick={() => console.log('connect')}><span>Let’s Connect</span></div>
+                    <Nav.Link href="#contact"><div className="connectBtn animate__animated animate__fadeInLeft animate__delay-1s"><span>Let’s Connect</span></div></Nav.Link>
                     {/* Give linear-gradient color to the icons */}
                     <svg width="0" height="0">
                         <linearGradient id="color-gradient" x1="100%" y1="100%" x2="0%" y2="0%">

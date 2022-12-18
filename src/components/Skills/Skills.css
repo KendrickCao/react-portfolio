@@ -1,9 +1,7 @@
 #skills{
     text-align: center;
-    padding-bottom: 15rem;
-    /* color: white; */
+    padding: 2rem 0 15rem 0;
     position: relative;
-   
 }
 #skills-container{
     row-gap: 2rem;
@@ -24,7 +22,6 @@
 
 .skills-card img{
     width: 60px;
-    /* height: 60px; */
 }
 .skills-card h5{
     font-weight: 500;
@@ -43,12 +40,12 @@
 #island{
     border-top-left-radius: 620px;
     background: linear-gradient(125deg,#22c1c3,#fdbb2d);
+
     width: 114%;
     position: absolute;
-    height: 120%;
+    height: 115%;
     right: 0;
-    /* top: -30%; */
-    bottom: 2rem;
+    bottom: 4rem;
     z-index: -999;
 }
 #island img{
