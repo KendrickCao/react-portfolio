@@ -1,7 +1,8 @@
 #about{
     color: white;
     background: linear-gradient(125deg,#22c1c3,#fdbb2d);
-    padding: 6rem 0.5rem;
+    padding: 16rem 0.5rem;
+    clip-path: polygon(0 16vh,100% 0,100% 80%,0 100%);
 }
 #about p{
     font-size: 18px;

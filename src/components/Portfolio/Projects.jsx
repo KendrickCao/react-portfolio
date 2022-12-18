@@ -17,7 +17,7 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
     };
     return(
         <Row>
-            <Col sm={12} lg={4}>
+            <Col sm={12} xl={4}>
                 <h2 className="mb-3 project-title">{title}</h2>
                 <div>
                     <div className="project-tech mb-3">
@@ -31,7 +31,7 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
                     </div>
                 </div>
             </Col>
-            <Col sm={12} lg={8} className="project-img-wrapper">
+            <Col sm={12} xl={8} className="project-img-wrapper">
                 <Carousel responsive={responsive} infinite={true}  removeArrowOnDeviceType={"small"}>
                 {
                     imgSrc.map((imgitem,index) => <img key={index} src={imgitem} alt={title}/>)

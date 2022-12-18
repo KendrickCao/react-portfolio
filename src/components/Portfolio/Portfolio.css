@@ -25,9 +25,12 @@
     border-width: 3px;
     margin: 0;
 }
-#projects .row{
+#projects .row:not(:last-child) { 
     justify-content: space-evenly;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
+}
+#projects .row:last-child{
+    margin-bottom: 1rem;
 }
 .project-img-wrapper img{
     width: 100%;
