@@ -1,7 +1,7 @@
 import { Col,Row } from "react-bootstrap"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
 
@@ -20,7 +20,7 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
         <Row>
             
             <Col sm={12} xl={4}>
-                <Fade left cascade>
+                <Fade direction="left">
                     <div>
                         <h2 className="mb-3 project-title">{title}</h2>
                         <div>
@@ -38,7 +38,7 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
                 </Fade>
             </Col>
             <Col sm={12} xl={8} className="project-img-wrapper">
-                <Fade>
+                <Fade direction="right">
                     <div>
                         <Carousel responsive={responsive} infinite={true}  removeArrowOnDeviceType={"small"}>
                         {
