@@ -20,7 +20,7 @@ export const About = () =>{
             </Fade>
             </Col>
             <Col lg={6} sm={12}>
-              <Fade direction="right" fraction={0.5}>
+              <Fade direction="right">
                 <div>
                   <p>
                     As a dedicated and hardworking postgraduate from Cardiff

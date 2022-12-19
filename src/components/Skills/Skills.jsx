@@ -5,22 +5,20 @@ import { otherSkillData } from "./skillData";
 import { backSkillData } from "./skillData";
 import plumtreeImg from "../../assets/images/plumtree.png";
 import { Fade } from "react-awesome-reveal";
-import { AttentionSeeker } from "react-awesome-reveal";
 import "./Skills.css";
 import "../../App.css";
+import "animate.css"
 
 export const Skills = () => {
   return (
     <section id="skills">
       <div id="island">
         <Fade duration={300}>
-          <AttentionSeeker effect="bounce" delay={1000}>
             <img
               src={plumtreeImg}
               alt="plumtree"
               className="animate__animated animate__bounce animate__delay-2s"
             />
-          </AttentionSeeker>  
         </Fade>
       </div>
       <Container>
