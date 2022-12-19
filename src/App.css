@@ -145,7 +145,7 @@ p.danger {
       bottom: 0;
   }
 }
-@media (max-height:799px) {
+@media (max-height:750px) {
   #skills{
     padding-top: 4rem;
     padding-bottom: 4rem;

@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap"
 import { Projects } from "./Projects"
 import { projectData } from "./projectData";
-import {Fade} from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import 'react-multi-carousel/lib/styles.css';
 import "./Portfolio.css"
 
