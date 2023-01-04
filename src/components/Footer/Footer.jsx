@@ -13,7 +13,7 @@ export const Footer = () =>{
                     <div className="social-icon">      
                         <a title="Github" rel="noreferrer" target="_blank" href="https://github.com/KendrickCao/"><FaGithub className="social-icon-svg" style={{ fill: "#fff" }}/></a>
                         <a title="LinkedIn" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/yanguocao/"><FaLinkedinIn className="social-icon-svg" style={{ fill: "#fff" }}/></a>
-                        <a title="Resume" rel="noreferrer" target="blank" href="https://drive.google.com/file/d/11iSpHAFuoUEUs0MhtJ96e-MClyqBjodM/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "#fff" }}/></a>
+                        <a title="Resume" rel="noreferrer" target="blank" href="https://drive.google.com/file/d/1ZqbMUezQkTWjO-KDDcbSNDl406yxgaIj/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "#fff" }}/></a>
                     </div>
             </Container>
         </footer>

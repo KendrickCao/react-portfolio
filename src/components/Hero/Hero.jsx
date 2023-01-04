@@ -25,7 +25,7 @@ export const Hero = () => {
                     <div className="social-icon animate__animated animate__fadeInLeft animate__delay-1s">      
                         <a title="Github" rel="noreferrer" target="_blank" href="https://github.com/KendrickCao/"><FaGithub className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
                         <a title="LinkedIn" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/yanguocao/"><FaLinkedinIn className="social-icon-svg" style={{ fill: "url(#color-gradient)" }}/></a>
-                        <a title="Resume" rel="noreferrer" target="blank" href="https://drive.google.com/file/d/11iSpHAFuoUEUs0MhtJ96e-MClyqBjodM/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "url(#color-gradient)" }}/></a>
+                        <a title="Resume" rel="noreferrer" target="blank" href="https://drive.google.com/file/d/1ZqbMUezQkTWjO-KDDcbSNDl406yxgaIj/view?usp=sharing"><FaFileAlt className="social-icon-svg"style={{ fill: "url(#color-gradient)" }}/></a>
                     </div>
                     </Fade>
                 </div>

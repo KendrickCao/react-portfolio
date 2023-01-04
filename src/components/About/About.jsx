@@ -26,7 +26,6 @@ export const About = () =>{
                     As a dedicated and hardworking postgraduate from Cardiff
                     University, I have built a solid foundation of software
                     development concepts and practice through courses and projects.
-                    Finally got the first class degree.
                   </p>
                   <p>
                     As a software engineer, I believe that technology represents

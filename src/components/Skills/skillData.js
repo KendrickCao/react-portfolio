@@ -13,12 +13,12 @@ import springbootIcon from "../../assets/images/springboot.png"
 import mysqlIcon from "../../assets/images/mysql.png"
 import mongodbIcon from "../../assets/images/mongodb.png"
 import mavenIcon from "../../assets/images/maven.jfif"
-import gradleIcon from "../../assets/images/gradle.png"
+// import gradleIcon from "../../assets/images/gradle.png"
 import linuxIcon from "../../assets/images/linux.png"
 import jmeterIcon from "../../assets/images/jmeter.png"
 import seleniumIcon from "../../assets/images/selenium.png"
 import nodeIcon from "../../assets/images/node.png"
-
+import dockerIcon from "../../assets/images/docker.png"
 
 import gitIcon from "../../assets/images/git.png"
 import agileIcon from "../../assets/images/agile.png"
@@ -87,8 +87,8 @@ export const backSkillData = [
         title : "MongoDB" 
     },
     {
-        imgSrc: gradleIcon,
-        title : "Gradle" 
+        imgSrc: dockerIcon,
+        title : "Docker" 
     },
     {
         imgSrc: mavenIcon,
