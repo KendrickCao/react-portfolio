@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/93497252/207477168-ebd3f04d-d6e2-46d3-98cd-5de272e92dc5.png)
 My personal portfolio website created by react.
 
-Live site at: [yanguo.cf](yanguo.cf)
+Live site at: [yanguo.cf](https://yanguo.cf/)
 
 ## Tech Stack
 - HTML
@@ -12,6 +12,12 @@ Live site at: [yanguo.cf](yanguo.cf)
 - react-bootstrap
 - email.js
 - animate.css
+
+## Feature
+- Responsive
+- animation
+- data driven components
+- email sending
 
 ## Use
 In the project directory, you can run:
