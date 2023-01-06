@@ -32,7 +32,8 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
                             <p className="project-description">{description}</p>
                             <div className="button-wrapper mb-3">
                                 <a href={gitLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Github</span></div></a>
-                            </div>
+                                {liveLink!==""&&<a href={liveLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Live</span></div></a>}
+                            </div>                                
                         </div>               
                     </div>
                 </Fade>

@@ -17,7 +17,7 @@ export const projectData = [
         description:"It aims to build a co-creative community knowledge website. The website will help communities exchange knowledge and share practices about their projects.",
         tech:["JavaScript","MySQL","Thymeleaf","Maven","Spring Boot","Hibernate","Java","Junit","Webdriver","BootStrap","Terraform","Jenkins","Nginx"],
         gitLink:"https://github.com/KendrickCao/Community-Knowledge",
-        liveLink:"",
+        liveLink:"http://communityknowledge.uksouth.cloudapp.azure.com/",
         imgSrc:[
             "https://user-images.githubusercontent.com/93497252/205936233-9a9868ce-7156-4b78-81ae-9a2f3270e55a.png",
             "https://user-images.githubusercontent.com/93497252/205964965-e8fe6b5d-3e61-49f6-97e5-0197151de0e1.png",

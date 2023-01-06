@@ -35,3 +35,8 @@
 .project-img-wrapper img{
     width: 100%;
 }
+#projects .button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
