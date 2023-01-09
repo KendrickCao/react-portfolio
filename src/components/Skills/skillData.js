@@ -13,18 +13,19 @@ import springbootIcon from "../../assets/images/springboot.png"
 import mysqlIcon from "../../assets/images/mysql.png"
 import mongodbIcon from "../../assets/images/mongodb.png"
 import mavenIcon from "../../assets/images/maven.jfif"
-// import gradleIcon from "../../assets/images/gradle.png"
+import gradleIcon from "../../assets/images/gradle.png"
 import linuxIcon from "../../assets/images/linux.png"
 import jmeterIcon from "../../assets/images/jmeter.png"
 import seleniumIcon from "../../assets/images/selenium.png"
-import nodeIcon from "../../assets/images/node.png"
+// import nodeIcon from "../../assets/images/node.png"
 import dockerIcon from "../../assets/images/docker.png"
 
 import gitIcon from "../../assets/images/git.png"
-import agileIcon from "../../assets/images/agile.png"
+// import agileIcon from "../../assets/images/agile.png"
 import jenkinsIcon from "../../assets/images/jenkins.png"
 import terraformIcon from "../../assets/images/terraform.png"
 import openstackIcon from "../../assets/images/openstack.png"
+import azureIcon from "../../assets/images/azure.png"
 import axureIcon from "../../assets/images/axure.png"
 import postmanIcon from "../../assets/images/postman.png"
 
@@ -95,13 +96,17 @@ export const backSkillData = [
         title : "Maven" 
     },
     {
+        imgSrc: gradleIcon,
+        title : "Gradle" 
+    },
+    {
         imgSrc: linuxIcon,
         title : "Linux" 
     },
-    {
-        imgSrc: nodeIcon,
-        title : "Node" 
-    },
+    // {
+    //     imgSrc: nodeIcon,
+    //     title : "Node" 
+    // },
 ]
 
 export const otherSkillData = [
@@ -114,32 +119,35 @@ export const otherSkillData = [
         title : "OpenStack" 
     },
     {
+        imgSrc: azureIcon,
+        title : "Azure" 
+    },
+    {
         imgSrc: jenkinsIcon,
         title : "Jenkins" 
-    },
-    {
-        imgSrc: agileIcon,
-        title : "Agile" 
-    },
-
-    {
-        imgSrc: axureIcon,
-        title : "Axure" 
     },
     {
         imgSrc: terraformIcon,
         title : "Terraform" 
     },
     {
-        imgSrc: postmanIcon,
-        title : "Postman" 
-    },
-    {
         imgSrc: jmeterIcon,
         title : "Jmeter" 
+    },
+    {
+        imgSrc: postmanIcon,
+        title : "Postman" 
     },
     {
         imgSrc: seleniumIcon,
         title : "Selenium" 
     },
+    {
+        imgSrc: axureIcon,
+        title : "Axure" 
+    },
+    // {
+    //     imgSrc: agileIcon,
+    //     title : "Agile" 
+    // },
 ]

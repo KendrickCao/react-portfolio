@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Fade } from 'react-awesome-reveal';
 
-export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
+export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc,note}) =>{
 
     const responsive = {
         large: {
@@ -30,9 +30,10 @@ export const Projects = ({title,description,tech,gitLink,liveLink,imgSrc}) =>{
                             }
                             </div>
                             <p className="project-description">{description}</p>
+                            {note&&<p style={{fontSize:"14px",fontStyle:"italic"}}>Note: {note}</p>}
                             <div className="button-wrapper mb-3">
                                 <a href={gitLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Github</span></div></a>
-                                {liveLink!==""&&<a href={liveLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Live</span></div></a>}
+                                {liveLink&&<a href={liveLink} target="_blank" rel="noreferrer"><div className="connectBtn"><span>Live</span></div></a>}
                             </div>                                
                         </div>               
                     </div>
