@@ -30,7 +30,7 @@ export const Contact = () =>{
     return (
       <section id="contact">
         <Container>
-          <Fade fraction={1}>
+          <Fade>
           <h2 className="section-title">CONTACT</h2>
           </Fade>
           <Fade fraction={0.5}>

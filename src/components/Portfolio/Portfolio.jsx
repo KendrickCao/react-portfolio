@@ -10,7 +10,7 @@ export const Portfolio = () =>{
     return(
             <section id="projects">
                 <Container>
-                <Fade fraction="1">
+                <Fade>
                     <h2 className="section-title">PROJECTS</h2>
                 </Fade>
                     {
